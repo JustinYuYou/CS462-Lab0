@@ -1,0 +1,11 @@
+5. Do you get the same result on both? Why or why not? 
+No, I didn't get the same result. The default emits an error stating it's now allowed by channel policy and the new one didn't.
+The reason is that the default one's policy doesn't allow the event, wherera the new one does.
+6. What happens? Why?
+It says the ECI is not found because the channel is deleted.
+7. What do you observe? Why?
+A json object of eid and one item of directives from the array is return. It is because the rule(hello_world) is evaluated and there is a function(send_directive) to send the event
+8. What do you observe? Why? 
+It returns an eid and empty array of directives. It is because there is no corresponding rule to send the directives.
+10. Was there any difference? Why might the || operator be preferable in this use case? 
+No, there was no difference. || operator is preferable in this case because we don't have to specify the name twice
