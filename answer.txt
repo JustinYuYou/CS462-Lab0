@@ -8,4 +8,4 @@ A json object of eid and one item of directives from the array is return. It is 
 8. What do you observe? Why? 
 It returns an eid and empty array of directives. It is because there is no corresponding rule to send the directives.
 10. Was there any difference? Why might the || operator be preferable in this use case? 
-No, there was no difference. || operator is preferable in this case because we don't have to specify the name twice
+No, there was no difference in terms of the end result. || operator is preferable in this case because we don't have to specify the name twice.
